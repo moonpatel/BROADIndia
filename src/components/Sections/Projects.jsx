@@ -18,34 +18,32 @@ export default function Projects() {
       <div className="whiteBg">
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">Our Awesome Projects</h1>
+            <h1 className="font40 extraBold">Explore Recent Installations</h1>
             <p className="font13">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-              <br />
-              labore et dolore magna aliquyam erat, sed diam voluptua.
+              Broad U.S.A. is committed to the inherent value and flexible solutions that thermally driven absorption plays in our modern world.
             </p>
           </HeaderInfo>
           <div className="row textCenter">
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
-                img={ProjectImg1}
-                title="Awesome Project"
+                img="https://broadusa.com/broad/wp-content/uploads/2020/04/portfilio_mgm_features-400x400.jpg"
+                title="MGM National Harbor"
                 text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
                 action={() => alert("clicked")}
               />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
-                img={ProjectImg2}
-                title="Awesome Project"
+                img="https://broadusa.com/broad/wp-content/uploads/2020/04/portfilio-Central-Valley-Water-Reclamation-Facility-_feature-pic-400x400.jpg"
+                title="Central Valley Water Reclamation Facility"
                 text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
                 action={() => alert("clicked")}
               />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
-                img={ProjectImg3}
-                title="Awesome Project"
+                img="https://broadusa.com/broad/wp-content/uploads/2020/04/prtofilio-whole-food2-400x400.jpg"
+                title="Whole Foods Stores  (NY)"
                 text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
                 action={() => alert("clicked")}
               />
@@ -54,24 +52,24 @@ export default function Projects() {
           <div className="row textCenter">
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
-                img={ProjectImg4}
-                title="Awesome Project"
+                img="https://broadusa.com/broad/wp-content/uploads/2020/04/prtofilio-New-Starwood-Resort-400x400.jpg"
+                title="New Starwood Resort  (Hawaii)"
                 text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
                 action={() => alert("clicked")}
               />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
-                img={ProjectImg5}
-                title="Awesome Project"
+                img="https://broadusa.com/broad/wp-content/uploads/2020/04/portfilio-ucsd-feature-400x400.jpg"
+                title="University of California San Diego (UCSD)"
                 text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
                 action={() => alert("clicked")}
               />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
-                img={ProjectImg6}
-                title="Awesome Project"
+                img="https://broadusa.com/broad/wp-content/uploads/2020/04/protfolio-john-waye-airport-400x400.jpg"
+                title="John Wayne Airport (LA)"
                 text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
                 action={() => alert("clicked")}
               />
@@ -89,24 +87,19 @@ export default function Projects() {
           <Advertising className="flexSpaceCenter">
             <AddLeft>
               <AddLeftInner>
-                <ImgWrapper className="flexCenter">
-                  <img className="radius8" src={AddImage2} alt="add" />
+                <ImgWrapper className="flexCenter"> 
+                  <img className="radius8" style={{height: "300px", width:"540px", position: "relative", top: "150px", right: "100px"}} src="https://broadusa.com/broad/wp-content/uploads/2020/02/broad_town.jpg" alt="add" />
                 </ImgWrapper>
               </AddLeftInner>
             </AddLeft>
             <AddRight>
-              <h4 className="font15 semiBold">A few words about company</h4>
-              <h2 className="font40 extraBold">A Study of Creativity</h2>
+              <h2 className="font40 extraBold">Building Inspiring Spaces</h2>
               <p className="font12">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-                diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                Only provide products and services beneficial to the earth and humanity
               </p>
               <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0" }}>
                 <div style={{ width: "190px" }}>
-                  <FullButton title="Get Started" action={() => alert("clicked")} />
-                </div>
-                <div style={{ width: "190px", marginLeft: "15px" }}>
-                  <FullButton title="Contact Us" action={() => alert("clicked")} border />
+                  <FullButton title="Read More" action={() => alert("clicked")} />
                 </div>
               </ButtonsRow>
             </AddRight>

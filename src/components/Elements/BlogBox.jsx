@@ -1,10 +1,12 @@
 import React from "react";
 import styled from "styled-components";
 
-export default function BlogBox({ tag, title, text, action, author }) {
+export default function BlogBox({ imgLink, tag, title, text, action, author }) {
   return (
     <WrapperBtn className="animate pointer" onClick={action ? () => action() : null}>
-      <Wrapper className="whiteBg radius8 shadow">
+      <div style={{height:"270px", backgroundImage:`url(${imgLink})`}}>
+      </div>
+      <Wrapper style={{height: "300px"}} className="whiteBg radius8 shadow">
         <h3 className="font20 extraBold">{title}</h3>
         <p className="font13" style={{ padding: "30px 0" }}>
           {text}

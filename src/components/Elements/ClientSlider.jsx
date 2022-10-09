@@ -42,36 +42,26 @@ export default function ClientSlider() {
   };
   return (
     <div>
+      <h1 style={{textAlign: "center", fontSize: "45px"}}>Our Trusted Clients</h1>
+      <p style={{textAlign: "center"}}>When the trust account is high, communication is easy, instant, and effective.</p>
       <Slider {...settings}>
         <LogoWrapper className="flexCenter">
-          <ImgStyle src={ClientLogo01} alt="client logo" />
+          <ImgStyle src="https://broadusa.com/broad/wp-content/uploads/2020/02/columbia_university_logo.png" alt="client logo" />
         </LogoWrapper>
         <LogoWrapper className="flexCenter">
-          <ImgStyle src={ClientLogo02} alt="client logo" />
+          <ImgStyle src="https://broadusa.com/broad/wp-content/uploads/2020/02/marriott_logo.png" alt="client logo" />
         </LogoWrapper>
         <LogoWrapper className="flexCenter">
-          <ImgStyle src={ClientLogo03} alt="client logo" />
+          <ImgStyle src="https://broadusa.com/broad/wp-content/uploads/2020/02/metro-vancover-logo.png" alt="client logo" />
         </LogoWrapper>
         <LogoWrapper className="flexCenter">
-          <ImgStyle src={ClientLogo04} alt="client logo" />
+          <ImgStyle src="https://broadusa.com/broad/wp-content/uploads/2020/02/princeton-university-logo2.png" alt="client logo" />
         </LogoWrapper>
         <LogoWrapper className="flexCenter">
-          <ImgStyle src={ClientLogo05} alt="client logo" />
+          <ImgStyle src="https://broadusa.com/broad/wp-content/uploads/2020/02/qualcomm-logo.png" alt="client logo" />
         </LogoWrapper>
         <LogoWrapper className="flexCenter">
-          <ImgStyle src={ClientLogo06} alt="client logo" />
-        </LogoWrapper>
-        <LogoWrapper className="flexCenter">
-          <ImgStyle src={ClientLogo03} alt="client logo" />
-        </LogoWrapper>
-        <LogoWrapper className="flexCenter">
-          <ImgStyle src={ClientLogo04} alt="client logo" />
-        </LogoWrapper>
-        <LogoWrapper className="flexCenter">
-          <ImgStyle src={ClientLogo01} alt="client logo" />
-        </LogoWrapper>
-        <LogoWrapper className="flexCenter">
-          <ImgStyle src={ClientLogo02} alt="client logo" />
+          <ImgStyle src="https://broadusa.com/broad/wp-content/uploads/2020/02/metro-vancover-logo.png" alt="client logo" />
         </LogoWrapper>
       </Slider>
     </div>
@@ -89,6 +79,6 @@ const LogoWrapper = styled.div`
 `;
 const ImgStyle = styled.img`
   width: 100%;
-  height: 100%;
+  height: auto;
   padding: 10%;
 `;

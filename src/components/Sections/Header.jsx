@@ -3,19 +3,16 @@ import styled from "styled-components";
 // Components
 import FullButton from "../Buttons/FullButton";
 // Assets
-import HeaderImage from "../../assets/img/header-img.png";
 import QuotesIcon from "../../assets/svg/Quotes";
-import Dots from "../../assets/svg/Dots";
 
 export default function Header() {
   return (
-    <Wrapper id="home" className="container flexSpaceCenter">
+    <Wrapper style={{backgroundImage: "url(https://broadusa.com/broad/wp-content/uploads/2015/12/broad_j57.jpg)"}} id="home" className="flexSpaceCenter">
       <LeftSide className="flexCenter">
         <div>
-          <h1 className="extraBold font60">We are Digital Agency.</h1>
-          <HeaderP className="font13 semiBold">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-            voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+          <h1 className="extraBold font60" style={{color: "white"}}>A new World of Cooling.</h1>
+          <HeaderP className="font15 semiBold" style={{color: "white"}}>
+            Only provide products and services beneficial to the earth and humanity.
           </HeaderP>
           <BtnWrapper>
             <FullButton title="Get Started" />
@@ -24,7 +21,6 @@ export default function Header() {
       </LeftSide>
       <RightSide>
         <ImageWrapper>
-          <Img className="radius8" src={HeaderImage} alt="office" style={{zIndex: 9}} />
           <QuoteWrapper className="flexCenter darkBg radius8">
             <QuotesWrapper>
               <QuotesIcon />
@@ -36,11 +32,7 @@ export default function Header() {
               <p className="font13 orangeColor textRight" style={{marginTop: '10px'}}>Ralph Waldo Emerson</p>
             </div>
           </QuoteWrapper>
-          <DotsWrapper>
-            <Dots />
-          </DotsWrapper>
         </ImageWrapper>
-        <GreyDiv className="lightBg"></GreyDiv>
       </RightSide>
     </Wrapper>
   );
@@ -56,7 +48,7 @@ const Wrapper = styled.section`
   }
 `;
 const LeftSide = styled.div`
-  width: 50%;
+  width: 100%;
   height: 100%;
   @media (max-width: 960px) {
     width: 100%;
@@ -151,5 +143,3 @@ const DotsWrapper = styled.div`
     display: none;
   }
 `;
-
-

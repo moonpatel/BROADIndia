@@ -14,6 +14,9 @@ export default function Contact() {
     <Wrapper>
       <div className="darkBg">
         <div className="container">
+          <div className="row">
+            
+          </div>
           <InnerWrapper className="flexSpaceCenter" style={{ padding: "30px 0" }}>
             <Link className="flexCenter animate pointer" to="home" smooth={true} offset={-80}>
               <LogoImg />

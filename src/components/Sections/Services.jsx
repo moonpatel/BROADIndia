@@ -21,37 +21,55 @@ export default function Services() {
       <div className="whiteBg" style={{ padding: "60px 0" }}>
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">Our Awesome Services</h1>
+            <h1 className="font40 extraBold">Specialists In Modern Absorption Chillers</h1>
             <p className="font13">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-              <br />
-              labore et dolore magna aliquyam erat, sed diam voluptua.
+              A cost-effective cooling and heating solution that can better utilize existing thermal energy sources
             </p>
           </HeaderInfo>
+          <br /><br /><br />
+          <div style={{ display: "flex" }}>
+            <p style={{ width: "50%", padding: "10px" }}>
+              BROAD U.S.A. is a privately held company headquartered in New Jersey, with sales and service operations to support our customers throughout North America. BROAD Absorption Chillers are currently operating successfully in over 80 counties with over 35,000 systems deployed worldwide. Relying on our innovative and environmental-friendly technology, BROAD U.S.A commits itself to optimize energy efficiency for clients in Commercial, Civil and Industrial markets.
+              <br />
+              <br />
+              Broad U.S.A. has service and support teams in our east and west coast locations, with service engineering and component inventory for rapid service to our customers.
+            </p>
+            <p style={{ width: "50%", padding: "10px" }}>
+              Broad U.S.A. also encourages and supports the education of both operators and service contractors on your equipment by offering regional training courses on a semi-annual basis as well as yearly factory training in our headquarters.
+              <br />
+              <br />
+              Broad U.S.A. is committed to the inherent value and flexible solutions that thermally driven absorption plays in our modern world. Absorption design is our core competency and primary focus. Unlike many current players in the absorption market, Broad designed and
+            </p>
+          </div>
+          <h1 style={{ marginTop: "45px", fontSize: "40px" }}>Our Awesome Products</h1>
           <ServiceBoxRow className="flex">
             <ServiceBoxWrapper>
               <ServiceBox
-                icon="roller"
-                title="Graphic Design"
-                subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+                icon="https://broadusa.com/broad/wp-content/uploads/2020/04/home_DFA.jpg"
+                title="NON-ELECTRIC CHILLER"
+                subtitle="Building Central A/C System & Domestic Hot Water.Providing cooling with fuel saves 4-time energy conversions."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox
-                icon="monitor"
-                title="Web Design"
-                subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore."
+                icon="https://broadusa.com/broad/wp-content/uploads/2020/05/WeChat-Image_20200513110329-400x276.jpg"
+                title="ABSORPTION HEAT PUMPS"
+                subtitle="Pumping Heat from lower Temperature to Medium Temperature using High Grade Energy. It is VARIATION of single stage absorption chiller"
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox
-                icon="browser"
-                title="Development"
-                subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+                icon="https://broadusa.com/broad/wp-content/uploads/2020/04/home_CCHP.jpg"
+                title="BROAD CCHP SYSTEM"
+                subtitle="Achieves Zero Emission with Exhaust Heat as Pwer Source - The CHP System powered by exhaust heat from generator."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
-              <ServiceBox icon="printer" title="Print" subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor." />
+              <ServiceBox
+                icon="https://broadusa.com/broad/wp-content/uploads/2020/04/home_power-efficient-chillers.jpg"
+                title="POWER EFFICIENT CHILLER"
+                subtitle="Cooling capacity ranging from 150 ton to 2000 ton. High COP (6.5) and excellent IPLV(maximum 13.26)"
+              />
             </ServiceBoxWrapper>
           </ServiceBoxRow>
         </div>
@@ -59,16 +77,11 @@ export default function Services() {
           <div className="container">
             <Advertising className="flexSpaceCenter">
               <AddLeft>
-                <h4 className="font15 semiBold">A few words about company</h4>
-                <h2 className="font40 extraBold">A Study of Creativity</h2>
+                <h2 className="font40 extraBold">FOR HUMANITY'S FUTURE</h2>
                 <p className="font12">
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-                  diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                  We preserve the life of the present generation
                 </p>
-                <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0"}}>
-                  <div style={{ width: "190px" }}>
-                    <FullButton title="Get Started" action={() => alert("clicked")} />
-                  </div>
+                <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0" }}>
                   <div style={{ width: "190px", marginLeft: "15px" }}>
                     <FullButton title="Contact Us" action={() => alert("clicked")} border />
                   </div>
@@ -111,8 +124,8 @@ const ServiceBoxRow = styled.div`
   }
 `;
 const ServiceBoxWrapper = styled.div`
-  width: 20%;
-  margin-right: 5%;
+  width: 25%;
+  margin-right: 2%;
   padding: 80px 0;
   @media (max-width: 860px) {
     width: 100%;
